@@ -3,6 +3,7 @@ torchvision
 facenet-pytorch
 opencv-python
 numpy
+Pillow
 pandas
 matplotlib
 seaborn
