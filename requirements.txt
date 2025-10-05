@@ -1,0 +1,14 @@
+torch
+torchvision
+facenet-pytorch
+opencv-python
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tqdm
+jupyter
+fastapi
+uvicorn
+python-multipart
