@@ -1,7 +1,7 @@
-# Data and Models
+# Dirs
 /data/
 /models/
-scripts/train.py
+/custom_test/
 
 # Python virtual environment
 /venv/

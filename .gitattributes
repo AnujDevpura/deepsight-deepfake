@@ -1,12 +1,18 @@
-# Set default behavior, in case people don't have core.autocrlf set.
-# This will handle line endings automatically for text files.
-* text=auto
+# Set default behavior for all files to handle line endings automatically.
+# This prevents Git from guessing the file type.
+* text=auto eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
 
-# Explicitly declare text files you want to always be normalized and converted
-# to native line endings on checkout.
-*.py text
-*.ipynb text
-*.md text
-*.txt text
-.gitignore text
-.gitattributes text
+#
+# The above will handle most files, but we can be explicit for common types.
+#
+
+# Enforce LF line endings for files that should have them.
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf

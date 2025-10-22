@@ -13,3 +13,5 @@ jupyter
 fastapi
 uvicorn
 python-multipart
+timm
+albumentations
